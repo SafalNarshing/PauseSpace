@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PauseSpace</string>
+    <string name="a11y_description">PauseSpace notices the moment a paused app opens so it can show a breathing pause first. It never reads what is on screen or what you do inside an app.</string>
+</resources>
