@@ -1,3 +1,4 @@
+
 <div align="center">
 
 <img src=".github/assets/logo.svg" width="96" alt="PauseSpace logo" />
@@ -13,14 +14,16 @@ A calm, open-source Android app that puts a short breathing pause in front of th
 [![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-UI-4285F4?logo=jetpackcompose&logoColor=white)](https://developer.android.com/compose)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-1E6BD6.svg)](#contributing)
 [![GitHub stars](https://img.shields.io/github/stars/SafalNarshing/PauseSpace?style=flat&color=1E6BD6)](https://github.com/SafalNarshing/PauseSpace/stargazers)
-
-<a href="pause_space.mp4">
-  <img src=".github/assets/launch-poster.jpg" width="760" alt="Watch the PauseSpace launch film" />
-</a>
-
-<sub>▶ <a href="pause_space.mp4">Watch the 50-second launch film</a></sub>
-
 </div>
+
+
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/7abe244a-d7da-4e47-8189-55d23fc06266" width="80%" controls></video>
+</div>
+
+
+
+
 
 ---
 
