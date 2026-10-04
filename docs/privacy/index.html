@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy · PauseSpace</title>
+  <meta name="description" content="Privacy policy for the PauseSpace Android app. PauseSpace does not collect, share or sell any personal data." />
+  <link rel="icon" href="../logo.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+    :root { --bg:#ffffff; --surface:#f0f6fd; --ink:#0b1b2b; --muted:#56677a; --line:#dfeaf6; --accent:#1e6bd6; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg:#070c12; --surface:#0f1924; --ink:#e8f0f8; --muted:#8fa3b8; --line:#1b2a3b; --accent:#6aaaf5; }
+    }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font:600 17px/1.65 Nunito, system-ui, sans-serif; }
+    main { max-width: 760px; margin: 0 auto; padding: 56px 20px 80px; }
+    header { display:flex; align-items:center; gap:14px; margin-bottom: 28px; }
+    header img { width:52px; height:52px; }
+    .brand { font-size: 26px; letter-spacing:-.02em; }
+    .brand b { font-weight:900; } .brand span { font-weight:500; color:var(--accent); }
+    h1 { font-size: 44px; line-height:1.05; letter-spacing:-.035em; font-weight:900; margin: 8px 0 6px; }
+    .date { color:var(--muted); margin:0 0 28px; }
+    .summary { background:var(--accent); color:#fff; border-radius:24px; padding:22px 24px; margin-bottom:34px; }
+    .summary p { margin:0; font-weight:700; color:#fff; }
+    h2 { font-size: 22px; font-weight:900; letter-spacing:-.01em; margin: 34px 0 8px; }
+    p, li { color: var(--ink); }
+    .muted { color: var(--muted); }
+    ul { padding-left: 22px; }
+    li { margin: 6px 0; }
+    .card { background:var(--surface); border-radius:20px; padding:16px 20px; margin:12px 0; }
+    .card strong { display:block; font-weight:800; }
+    a { color: var(--accent); font-weight:800; }
+    footer { margin-top: 48px; padding-top: 20px; border-top: 2px solid var(--line); color: var(--muted); font-size: 15px; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="../logo.svg" alt="PauseSpace logo" />
+    <div class="brand"><b>Pause</b><span>Space</span></div>
+  </header>
+
+  <h1>Privacy Policy</h1>
+  <p class="date">Effective date: 4 October 2026</p>
+
+  <div class="summary">
+    <p>PauseSpace does not collect, share or sell any personal data. Everything the app uses stays on your phone. The app has no internet permission, so it cannot send your data anywhere.</p>
+  </div>
+
+  <h2>About this policy</h2>
+  <p>This policy explains how the PauseSpace Android app (package <code>com.pausespace.app</code>) handles information on your device. PauseSpace is an open-source app published by its developer on GitHub at <a href="https://github.com/SafalNarshing/PauseSpace">github.com/SafalNarshing/PauseSpace</a>, where you can review the full source code.</p>
+
+  <h2>What the app accesses, and why</h2>
+  <p>PauseSpace puts a short breathing pause in front of the apps you choose. To do that, it asks for these permissions. Each is used only on your device:</p>
+  <div class="card">
+    <strong>Accessibility service</strong>
+    Used only to notice <em>which app</em> comes to the foreground, so the breathing pause can appear when you open an app you've chosen to pause. PauseSpace reads only the app's package and screen (activity) name. It does not read, record or store the content of your screen, what you type, or what you do inside other apps.
+  </div>
+  <div class="card">
+    <strong>Usage access</strong>
+    Used to show your screen time for the apps you pause (for example "52 min today") and the timeline of when they were open. This information is read from Android and shown to you; it is not stored elsewhere or sent anywhere.
+  </div>
+  <div class="card">
+    <strong>Display over other apps</strong>
+    Used to show the full-screen breathing pause on top of the app you're opening.
+  </div>
+  <div class="card">
+    <strong>List of installed apps</strong>
+    Used so you can choose which apps to pause, showing each app's name and icon.
+  </div>
+
+  <h2>What is stored on your device</h2>
+  <ul>
+    <li><strong>Your settings</strong>: which apps are paused, your breathing pattern, the words shown on screen, and per-app rules.</li>
+    <li><strong>A local log of pauses</strong>: for each pause, the time, which app it was for, and what you chose (let go, opened with a timer, or opened with no limit). This powers the "Today" dashboard and weekly view.</li>
+  </ul>
+  <p>This information is stored in the app's private storage on your device, which Android protects from other apps. It is never uploaded, synced or backed up by PauseSpace.</p>
+
+  <h2>What we don't do</h2>
+  <ul>
+    <li>No accounts or sign-in.</li>
+    <li>No analytics, advertising, crash-reporting or tracking SDKs.</li>
+    <li>No collection, transmission, sale or sharing of any data with the developer or any third party.</li>
+    <li>No access to your messages, contacts, photos, location, camera or microphone.</li>
+  </ul>
+
+  <h2>Links that leave the app</h2>
+  <p>The About screen has buttons to open the project on GitHub and the app's page on Google Play. These open in your browser or the Play Store app, which are governed by their own privacy policies.</p>
+
+  <h2>Keeping or deleting your data</h2>
+  <p>Your data stays on your device until you remove it. You can delete everything at any time by clearing PauseSpace's storage (Settings → Apps → PauseSpace → Storage → Clear storage) or by uninstalling the app. You can revoke any permission at any time in Android Settings.</p>
+
+  <h2>Children</h2>
+  <p>PauseSpace is not directed at children under 13, and it does not knowingly collect personal information from anyone, including children.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, the updated version will be posted on this page with a new effective date. Its full history is visible in the project's GitHub repository.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about privacy? Open an issue at <a href="https://github.com/SafalNarshing/PauseSpace/issues">github.com/SafalNarshing/PauseSpace/issues</a>.</p>
+
+  <footer>PauseSpace · A breath of room between you and the feed.</footer>
+</main>
+</body>
+</html>

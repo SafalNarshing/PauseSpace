@@ -41,6 +41,7 @@ import com.pausespace.app.ui.theme.LocalTokens
 import com.pausespace.app.ui.theme.ts
 
 private const val REPO_URL = "https://github.com/SafalNarshing/PauseSpace"
+private const val PRIVACY_URL = "https://safalnarshing.github.io/PauseSpace/privacy/"
 
 @Composable
 fun AboutScreen() {
@@ -177,6 +178,19 @@ fun AboutScreen() {
         ) {
             Icon(Icons.Star, t.onPrimary, 20.dp)
             BasicText("  Review us on Play Store", style = ts(16, 800, t.onPrimary))
+        }
+
+        Row(
+            Modifier
+                .fillMaxWidth()
+                .heightIn(min = 48.dp)
+                .tap(label = "Open the privacy policy", role = Role.Button) { openUrl(context, PRIVACY_URL) },
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.Center,
+        ) {
+            BasicText("Privacy policy", style = ts(14, 800, t.accent))
+            BasicText("  ", style = ts(14, 800, t.accent))
+            Icon(Icons.External, t.accent, 14.dp)
         }
 
         BasicText(
