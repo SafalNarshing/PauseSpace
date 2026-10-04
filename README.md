@@ -13,6 +13,7 @@ A calm, open-source Android app that puts a short breathing pause in front of th
 [![Kotlin](https://img.shields.io/badge/Kotlin-2.2-7F52FF?logo=kotlin&logoColor=white)](https://kotlinlang.org)
 [![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-UI-4285F4?logo=jetpackcompose&logoColor=white)](https://developer.android.com/compose)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-1E6BD6.svg)](#contributing)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-0B1B2B.svg)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/SafalNarshing/PauseSpace?style=flat&color=1E6BD6)](https://github.com/SafalNarshing/PauseSpace/stargazers)
 </div>
 
@@ -74,6 +75,10 @@ PauseSpace is **open for contributions**, and every kind of help is welcome: bug
 3. Open a pull request describing what changed and why
 
 Not sure where to start? Open an [issue](https://github.com/SafalNarshing/PauseSpace/issues) and say hi.
+
+## License
+
+PauseSpace is released under the [Apache License 2.0](LICENSE). By contributing, you agree that your contributions are licensed under the same terms.
 
 <div align="center">
 <br />
