@@ -64,6 +64,7 @@ import com.pausespace.app.ui.components.NavPill
 import com.pausespace.app.ui.components.Tab
 import com.pausespace.app.ui.components.rememberShown
 import com.pausespace.app.ui.components.tap
+import com.pausespace.app.ui.screens.AboutScreen
 import com.pausespace.app.ui.screens.AppsScreen
 import com.pausespace.app.ui.screens.RitualScreen
 import com.pausespace.app.ui.screens.RulesScreen
@@ -100,6 +101,7 @@ private object Routes {
     const val APPS = "apps"
     const val RITUAL = "ritual"
     const val WORDS = "words"
+    const val ABOUT = "about"
     const val RULES = "rules/{pkg}"
     fun rules(pkg: String) = "rules/$pkg"
 }
@@ -126,6 +128,7 @@ private fun AppRoot() {
         Routes.TODAY -> Tab.TODAY
         Routes.APPS -> Tab.APPS
         Routes.RITUAL -> Tab.RITUAL
+        Routes.ABOUT -> Tab.ABOUT
         else -> null
     }
     // Remember the last tab so the pill keeps its state while it fades out over detail pages.
@@ -198,6 +201,9 @@ private fun AppRoot() {
                     RitualScreen(prefs.ritual, prefs.words, onChange = Store::editRitual, onWords = { nav.navigate(Routes.WORDS) })
                 }
             }
+            composable(Routes.ABOUT) {
+                TabPage { AboutScreen() }
+            }
             composable(Routes.WORDS) {
                 DetailPage { WordsScreen(prefs.words, onBack = { nav.popBackStack() }, onChange = Store::editWords) }
             }
@@ -239,6 +245,7 @@ private fun NavHostController.tab(tab: Tab) {
         Tab.TODAY -> Routes.TODAY
         Tab.APPS -> Routes.APPS
         Tab.RITUAL -> Routes.RITUAL
+        Tab.ABOUT -> Routes.ABOUT
     }
     navigate(route) {
         popUpTo(graph.startDestinationId) { saveState = true }
