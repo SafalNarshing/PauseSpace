@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-label="PauseSpace logo">
+  <rect x="4" y="4" width="152" height="152" rx="44" fill="#FFFFFF" stroke="#E6EDF6" stroke-width="2"/>
+  <g transform="translate(20 20)" fill="none" stroke="#0B1B2B" stroke-linecap="round">
+    <path d="M48 16v88M72 16v88" stroke-width="9"/>
+    <path d="M6 70c22 0 32-10 54-10s32 10 54 10" stroke="#1E6BD6" stroke-width="5"/>
+  </g>
+</svg>

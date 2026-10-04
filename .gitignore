@@ -1,0 +1,8 @@
+# Track only the Android app, the README (and its images) and the launch video.
+# Everything else in the repo root (e.g. brag-output*/ video build folders) stays local.
+/*
+!/.gitignore
+!/README.md
+!/pause_space.mp4
+!/android/
+!/.github/
